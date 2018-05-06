@@ -25,6 +25,10 @@ This application shows links to create questions in multiple pages of the applic
 8. Run: seeds php artisan migrate:refresh --seed
 
 ## Project Resources:
+1.  Create a view (View FAQ)
+2.  Update web.php with new view route
+3.  Update welcome.blade with links for new home page
+4.  Activate new view link on home page to include the new code
 
 ## Prerequisites:
 You need to complete upto video 20 where it has testing to begin this project, if you don't have previous experience with Laravel.
