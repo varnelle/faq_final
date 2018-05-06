@@ -30,7 +30,7 @@
         <div class="row ">
             <div class="col-md-12">
 
-    <h1>List of Available FAQ Views Include:</h1>
+    <h1>Available FAQ Views Include:</h1>
 
      <div>
                     <a href="{{ url('/questions/create') }}">Question</a>
