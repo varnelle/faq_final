@@ -36,9 +36,22 @@ Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@d
 
 Route::resources([
     'questions' => 'QuestionController',
+
+
 ]);
 
+Route::get('faq', function () {
+    return view('faq');
+});
+/*
+ View Composer
+ */
 
+View::composer(['*'], function($view){
+    $user = Auth::user();
+    $view ->with('user',$user);
+
+});
 
 
 
