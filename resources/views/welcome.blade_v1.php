@@ -78,7 +78,7 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
 
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
                     @endauth
                 </div>
             @endif
@@ -88,20 +88,21 @@
 
                 </div>
                 <h1>FAQ Questions/Answer Page</h1>
-                <h1>You must be logged in to use the profile button</h1>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
-                    <a href="{{ url('/home/README.md')}}">README</a>
+                    <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="top-left links">
                     <a href="{{ url('/questions/create') }}">Create Question</a>
                     <a href="{{ url('/home?page=9') }}">Latest Questions</a>
-                    <a href="{{url('/faq') }}">FQA View List</a>
+                    <a href="{{ route('register') }}">FQA List</a>
                     <a href="{{ url('/user/profile_id/profile/profile_id')}}">Profile</a>
+
+
                     <a href="https://github.com/varnelle/faq_final/projects/1#card-9456982">User Story</a>
 
 
