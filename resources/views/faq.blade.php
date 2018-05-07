@@ -39,7 +39,7 @@
                     <h2>You can view the profile of the logged in user on the above page. You must be logged in to view your profile.</h2>
                     <a href="https://github.com/varnelle/faq_final/projects/1#card-9456982">User Story</a>
                     <h3>Github User Story can be viewed at the above link.</h3>
-
+k
 
                 </div>
 

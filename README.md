@@ -25,8 +25,8 @@ This application shows links to create questions in multiple pages of the applic
 8. Run: seeds php artisan migrate:refresh --seed
 
 ## Project Resources:
-1.  Create a view (View FAQ)
-2.  Update web.php with new view route
+1.  Create a view (View FAQ) - faq.blade.php
+2.  Update web.php with new view route to call new view
 3.  Update welcome.blade with links for new home page
 4.  Activate new view link on home page to include the new code
 
