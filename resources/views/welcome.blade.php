@@ -88,14 +88,14 @@
 
                 </div>
                 <h1>FAQ Questions/Answer Page</h1>
-                <h1>You must be logged in to use the profile button</h1>
+                <h1>A user must be authenticated to view profile.</h1>
 
                 <div class="links">
+                    <a href="https://github.com/varnelle/faq_final">README/Project GitHub </a>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
-                    <a href="https://github.com/varnelle/faq_final">README</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+
                 </div>
                 <div class="top-left links">
                     <a href="{{ url('/questions/create') }}">Create Question</a>
