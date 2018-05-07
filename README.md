@@ -6,11 +6,11 @@ This application shows links to create questions in multiple pages of the applic
  
 ## What do i expect when I visit the FAQ site?
 
- FAQs visitors and editors
-   • As a site visitor, I can create questions, so I can get quick answers.
-   • As a site visitor, I can read FAQs, so I can get quick answers.
-   • As a site editor, I can maintain a FAQ section so that support gets fewer easily answered questions.
-   • As a site visitor, I can find an answer quickly. 
+ FAQ site is dedicated to visitors and editors alike
+   1. As a site visitor, I can create questions, so I can get quick answers.
+   2. As a site visitor, I can read FAQs, so I can get quick answers.
+   3. As a site editor, I can maintain a FAQ section so that support gets fewer easily answered questions.
+   4. As a site visitor, I can find an answer quickly. 
 
 
 ## To run the FAQ project:
