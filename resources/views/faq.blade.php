@@ -40,7 +40,7 @@
                     <a href="{{ url('/user/profile_id/profile/profile_id')}}">Profile</a>
                     <h2>You can view the profile of the logged in user on the above page. You must be authenticated to view your profile.</h2>
                     <a href="https://github.com/varnelle/faq_final/projects/1#card-9456982">User Story</a>
-                    <h3>Github User Story can be viewed at the above link.</h3>
+                    <h3>Github User Story can be viewed by clicking the above link.</h3>
 
 
                 </div>
