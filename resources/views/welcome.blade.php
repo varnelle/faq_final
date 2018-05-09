@@ -52,7 +52,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 12px;
             }
 
             .links > a {
@@ -88,8 +88,6 @@
 
                 </div>
                 <h1>FAQ Questions/Answer Page</h1>
-                <h1>A user must be authenticated to view profile.</h1>
-
                 <div class="links">
                     <a href="https://github.com/varnelle/faq_final">README/Project GitHub </a>
                     <a href="https://laravel.com/docs">Documentation</a>
@@ -100,8 +98,9 @@
                 <div class="top-left links">
                     <a href="{{ url('/questions/create') }}">Create Question</a>
                     <a href="{{ url('/home?page=9') }}">Latest Questions</a>
+
                     <a href="{{url('/faq') }}">FQA View List</a>
-                    <a href="{{ url('/user/profile_id/profile/profile_id')}}">User Profile</a>
+
                     <a href="https://github.com/varnelle/faq_final/projects/1#card-9456982">User Story</a>
 
 

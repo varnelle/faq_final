@@ -23,7 +23,6 @@
 <body>
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
-
         <div class="container">
 
 
@@ -53,7 +52,6 @@
                     <!-- Authentication Links -->
                     @guest
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
-                        <h2>Welcome!</h2>
                         <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
 
                     @else
@@ -87,16 +85,6 @@
                 </ul>
             </div>
         </div>
-<div>
-        @if (Auth::check())
-        <div><?php echo Auth::user(); ?>
-
-
-
-        @else
-            You are logged out
-        @endif
-        </div>
     </nav>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -125,7 +113,7 @@
         <!-- /.container-fluid -->
     </nav>
     <main class="py-4">
-        <div class="col-sm-12">
+        <div class="col-12">
         @include('flash.error')
         @include('flash.messages')
         @include('flash.status')
