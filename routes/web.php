@@ -43,16 +43,33 @@ Route::resources([
 Route::get('faq', function () {
     return view('faq');
 });
+
+/*Route::get('/', function () {
+    return view('greetings');
+});
+
 /*
  View Composer
- */
+
 
 View::composer(['*'], function($view){
     $user = Auth::user();
     $view ->with('user',$user);
 
+ });
+/*
+
+View::composer(['profile'],function($view){
+    return view('faq');
 });
 
+View::composer('*', function($view)
+{
+    //
+});
+
+
+*/
 
 
 
