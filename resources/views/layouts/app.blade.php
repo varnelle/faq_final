@@ -90,9 +90,7 @@
 <div>
         @if (Auth::check())
         <div><?php echo Auth::user(); ?>
-
-
-
+            
         @else
             You are logged out
         @endif
